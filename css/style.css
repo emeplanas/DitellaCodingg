@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #f36666;
+    height: 70vh;
+}
+
+section:last-child {
+    background-color: none;
+    height: 70vh;
+}
+
+section {
+    height: 40vh;
+}
+
+footer {
+    height: 15vh;
+    padding-top: 7vh;
+    background-color: #3f69c5;
+}
+
+main > .container-fluid:nth-child(2) {
+    height: 70vh;
+}
+
+header,
+main {
+    padding: 0 8vw !important;
+}
+
+.navbar {
+    padding:3vw;
+    position: absolute;
+    background-color: none;
+    z-index: 3;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid {
+    border-color: purple;
+    background-image: url(../images/check.png);
+}
+
+textarea {
+    resize: none;
+}
+
+.modal-title {
+    color: black !important;
+    padding: 0 10px !important;
+}
+
+header > div,
+main .container-fluid > div,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 40px;
+    vertical-align: top;
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+h4 {
+    font-size: 230%;
+    vertical-align: top;
+    font-family: 'Josefin Sans';
+}
+
+
+section p {
+    line-height: 125%;
+}
+
+header p {
+    font-size: 15px;
+    color: rgba(255, 255, 255);
+}
+
+header a,
+section a {
+    font-size: 20px;
+    width: 150px;
+    display: block;
+    padding: 0 11.5px 0;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    main > .container-fluid:nth-child(2) {
+        height: 100%;
+    }
+
+    section:last-child {
+        height: 70vh;
+        padding: 20% 0;
+    }
+
+    section {
+        height: 40vh;
+    }
+
+    .header-right {
+        order: -1;
+    }
+
+    .header-left {
+        padding-bottom: 50px;
+    }
+}
+
+div.overcarousel{
+    align-items: left;
+    padding-left: 4%;
+    padding-top: 20vw;
+    padding-right: 50%;
+    position:absolute;
+    z-index: 2;
+    font-size: 1vw;
+}
+
+.navbar a:hover {
+    color: #f36666;
+  }
+
+h2:hover{
+    color:#f36666
+}
+.buttonr {
+    font-size: 2vw;
+    padding: 1.5vw 3vw;
+  }
